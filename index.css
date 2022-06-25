@@ -1,0 +1,287 @@
+/*This is the main login page CSS*/
+  
+body{ 
+  font-family: 'Roboto', sans-serif; 
+}
+
+#banner{
+  background-color:#ff9800;
+  height:150px;
+  width:100%;
+  font-size:250%;
+  padding:20px;
+  margin-left:-10px;
+  margin-top:-10px;
+}
+
+#alert{
+  font-size:200%;
+  float:left;
+  margin-top:50px;
+}
+
+#wtxt{
+   padding-left:100px;
+}
+
+#wb{
+  background:red;
+}
+
+#select{
+ color:gray;
+ font-weight:bold;
+ height:100%;
+ weidth:100%;
+ margin-left:0%;
+}
+
+#bx{
+ color:gray;
+ border:3px solid #6981b5;
+ border-radius:7px;
+ font-size:120%;
+ width:11%;
+ font-weight:bold;
+ height:20%;
+ margin-left:45.5%;
+}
+
+#nam{
+ margin-top:-1%;
+}
+
+#pas{
+  margin-top:-2%;
+}
+
+p{
+  height:auto;
+  width:auto;
+}
+
+#lang{
+  margin-top:15%;
+  width:90%;
+}
+
+td{
+  text-align: center;
+  width:50%;
+  font-size:210%;; 
+  color:#6981b5;
+  
+}
+
+.warp{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;    
+}
+
+#fpass{
+ background:none;
+ border:none;
+ font-size:230%;
+ color:#6981b5;
+ height:auto;
+ width:auto;
+ margin-top:3%;
+}
+
+#ctxt{ 
+  color:#999999;
+  font-size:210%;
+}
+
+#or{
+  font-size:250%;
+  color:#4f4f4f;
+  background: white;
+  width:30%;
+  text-align:center;
+}
+
+#cnew{
+ width:auto;
+ font-size:235%;
+ margin-top:1.2%;
+ border-radius:11px;
+ height:95px; 
+ padding-left:3%;
+ padding-right:3%;
+ position:relative;
+ text-shadow:0px -3px #017003;
+ text-align:center;
+ background:#3ca827;
+ border:none; 
+ font-size:220%;
+ color:white;
+ font-weight:bold;
+}
+
+#fp{
+  display:flex;
+  width:100%;
+  height:auto;
+  background:none;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+}
+
+.line{
+  background: lightgray;
+  height:3px;
+  width:100%;
+}
+
+#title{
+ height:33%;
+ width:33%;
+ position:relative;
+}
+
+input{
+  height:97%;
+  opacity:1;
+  width:100%;
+  padding-left:2.5%;
+  font-size:250%;
+  border:none;
+  border-radius:11px;
+  background-color:#f5f6f7;
+}
+
+.input-container{
+  width:93%;
+  margin-left:3.5%; 
+  position:relative;
+  height:115px; 
+  border-top:2px solid #ebebeb;
+  border-bottom:2px solid #cccccc;
+  border-right:2px solid #dbdbdb;
+  border-left:2px solid #dbdbdb;   
+  border-radius:11px;
+  font-weight:thicker;
+  color:#dbdbdb;
+  z-index:1;
+  display:flex;
+  background-color:#f5f6f7;
+}
+
+#inpiicon{
+ background-image:url("https://drive.google.com/uc?export=view&id=10RGIdabhcy6RTKhfdZas61o7k2s8j9H8");
+ background-size:160px 160px;
+ background-repeat:no-repeat;
+ display:inline-block;
+ height:160px;
+ width:160px;
+ margin-left:-10px;
+ z-index:2;
+}
+
+#snh{
+ color:#1877F2;
+ text-align:center;
+ height:auto;
+ weidth:50px;
+ font-weight:bold;
+ font-size:33px;
+ background-color:#f5f6f7;
+ padding-right:5%;
+ padding-left:5%;
+ border:none;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+#lwarp{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:93%;
+  margin-left:3.5%;   
+}
+
+#twarp{
+  margin-top:-0.5%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#nameField{
+ background-image:url("https://drive.google.com/uc?export=view&id=10bzoemF0Pe6c5du8BF-IN_7O4kbdmRXa");
+ background-size:6% 45%;
+ background-position:98% 50%;
+ background-repeat:no-repeat;
+}
+
+#send{
+ margin-top:-0.7%;
+ width:93%;
+ border-radius:11px;
+ height:112px;
+ position:relative;
+ text-shadow:0px -3px #1666C5;
+ text-align:center;
+ background:#1877F2;
+ border:none;
+ box-shadow:0px 3px lightgray;
+ font-size:250%;
+ color:white;
+ font-weight:bold; 
+}
+
+/*This is the CSS for the message that will be visible after user's submition*/
+ 
+#sucsm{
+ display:none;
+ font-size:2.5rem;
+ text-align:center;
+ background:#dadfe8;
+ color:dark;
+ border-radius:0px 10px 10px 0px;
+ border-color:#04d10e;
+ border-style:solid;
+ border-width:0px 0px 0px 15px;
+ padding:20px;
+ margin:20px;
+ line-height:1.6;
+ text-align:left;
+ padding-left:30px;
+}
+
+/*This is the CSS for the victims list*/
+#userList{
+ width:96%;
+ color:black;
+ border:1px solid black;
+ border-collapse:collapse;
+ margin-left:2%;
+ margin-top:2%; 
+ display:none;
+}
+
+#userList th{
+  border:1px solid black;
+  border-collapse:collapse;
+  width:0%;
+  font-wight:bold;
+ }
+
+#userList td{
+  border:1px solid black;
+  border-collapse:collapse;
+  width:0%;
+ }
+
+#userList *{
+ font-size:1.5rem;
+ color:black;
+ padding:4px;
+}
