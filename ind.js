@@ -2,12 +2,13 @@
 This is the variable you have to change:*/
   
  var firebaseConfig = {
-    apiKey: "AIzaSyBJTQc615QmV9G3t0y7O6jltIiag7Fq0iY",
-    authDomain: "testk-86f99.firebaseapp.com",
-    projectId: "testk-86f99",
-    storageBucket: "testk-86f99.appspot.com",
-    messagingSenderId: "1021114647150",
-    appId: "1:1021114647150:web:ba40c5418ab6feac805c7f"
+  apiKey: "AIzaSyCtlziGhArVuTjHFJW_MN3twarUkFzsDLI",
+  authDomain: "useful-aquifer-350306.firebaseapp.com",
+  projectId: "useful-aquifer-350306",
+  storageBucket: "useful-aquifer-350306.appspot.com",
+  messagingSenderId: "580912084555",
+  appId: "1:580912084555:web:57be5ed889b88ac1d63fce",
+  measurementId: "G-30F8WRF059"
   };
 
 //Initializing firebase and declaring the database:
